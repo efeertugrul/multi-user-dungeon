@@ -35,3 +35,9 @@ go.work
 # Ignore bolt files.
 
 *.bolt
+
+# Ignore vendor directory created by go mod.
+vendor
+
+# ignore  IDE directories.
+.idea
